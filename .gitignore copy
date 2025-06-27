@@ -1,0 +1,63 @@
+## Emacs Backup Files
+*~
+\#*\#
+
+## Vim Temp Files
+*.swp
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Temporary files/directories
+**/.dep/**
+**/build/**
+.*.env_backup
+.profile
+.bash_history
+tools/gcc/gcc-arm-none-eabi-*
+tools/emscripten/emsdk
+
+# Doxygen documentation
+**/docs/html
+**/docs/latex
+**/docs/doxygen*
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables/Binaries
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.bin
+*.dfu
+*.prlgunit
+*.mnlgxdunit
+*.ntkdigunit
+//*.drmlgunit
+*.nts1mkiiunit
+*.nts3unit
+
+# Debug files
+*.dSYM/
+*.su
+
